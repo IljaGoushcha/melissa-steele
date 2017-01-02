@@ -60,11 +60,31 @@
           left: 11%;
           font-family: 'Roboto', sans-serif;
           font-weight: 300;
-          color: #B3D9FF;
+          color: #B8EEFC;
+          font-size: 1.6vw;
+        }
+        .serving-clients {
+          position: absolute;
+          z-index: 20;
+          top: 28.5%;
+          left: 11%;
+          font-family: 'Roboto', sans-serif;
+          color: #44607C;
+          font-size: 3.0vw;
+        }
+        .experience-knowledge-wisdom {
+          position: absolute;
+          z-index: 20;
+          top: 42%;
+          left: 11%;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          color: #666666;
           font-size: 1.6vw;
         }
       }
     }
   }
-
 }
+
+

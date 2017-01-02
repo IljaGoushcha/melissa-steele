@@ -1,24 +1,78 @@
 .navbar-default {
-  .navbar-brand {
-    color: #435F7D;
-    font-size: 25px;
-    width: 450px;
-    height: 100px;
-    padding-left: 0;
-    img {
-      display: inline;
+  background:transparent;
+  border-color: transparent;
+  .container-fluid {
+    padding-right: 0;
+    .navbar-brand {
+      color: #435F7D;
+      font-size: 25px;
+      width: 450px;
+      height: 100px;
+      padding-left: 0;
+      img {
+        display: inline;
+      }
     }
-  }
 
-  .navbar-nav {
-    height: 100px;
-    padding: 25px 0 25px 0;
-    li {
-      a {
-
+    .navbar-nav {
+      height: 100px;
+      padding: 25px 0 25px 0;
+      li {
+        a:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+    .navbar-header {
+      button {
+        margin-top: 33px;
       }
     }
   }
 }
 
+@media (max-width: 1000px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block!important;
+    min-height: 200px;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav {
+    font-size: 18px;
+  }
+}
 
