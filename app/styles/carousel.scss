@@ -1,4 +1,13 @@
 .carousel {
+  .carousel-indicators {
+    left: 90%;
+    li {
+      background-color: whitesmoke;
+    }
+    .active {
+      background-color: #44607C;
+    }
+  }
   .carousel-inner {
     .item {
       img {
@@ -13,6 +22,46 @@
           font-family: 'Roboto', sans-serif;
           color: #44607C;
           font-size: 3.0vw;
+        }
+        .integrity-passion-excellence {
+          position: absolute;
+          z-index: 20;
+          top: 42%;
+          left: 11%;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          color: #666666;
+          font-size: 1.6vw;
+        }
+        .make-appointment {
+          position: absolute;
+          z-index: 20;
+          top: 59%;
+          left: 11%;
+          color: #44607C;
+          font-size: 1.3vw;
+          border: 2px solid #44607C;
+          background-color: transparent;
+          line-height: 3.3vw;
+        }
+        .caring-for-clients {
+          position: absolute;
+          z-index: 20;
+          top: 28.5%;
+          left: 11%;
+          font-family: 'Roboto', sans-serif;
+          color: whitesmoke;
+          font-size: 3.0vw;
+        }
+        .personal-approach {
+          position: absolute;
+          z-index: 20;
+          top: 42%;
+          left: 11%;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          color: #B3D9FF;
+          font-size: 1.6vw;
         }
       }
     }
