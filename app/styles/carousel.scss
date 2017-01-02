@@ -1,0 +1,21 @@
+.carousel {
+  .carousel-inner {
+    .item {
+      img {
+        min-width: 100%;
+      }
+      .carousel-content {
+        .focusing-what-matters {
+          position: absolute;
+          z-index: 20;
+          top: 28.5%;
+          left: 11%;
+          font-family: 'Roboto', sans-serif;
+          color: #44607C;
+          font-size: 3.0vw;
+        }
+      }
+    }
+  }
+
+}
