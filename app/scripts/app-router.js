@@ -1,15 +1,13 @@
 /**
  * Created by ig on 1/1/17.
  */
+'use strict';
 
 angular
   .module('melissaSteeleApp').config(function($locationProvider, $stateProvider, $urlRouterProvider) {
 
-    // $locationProvider.html5Mode(true);
-
-    // $locationProvider
-    //   .html5Mode(false)
-    //   .hashPrefix('');
+    $locationProvider
+      .hashPrefix('');
 
     $urlRouterProvider.otherwise('/home');
 

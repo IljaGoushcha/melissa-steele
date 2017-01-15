@@ -13,7 +13,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
   </head>
   <body ng-app="melissaSteeleApp">
     <!--[if lte IE 8]>
@@ -22,9 +22,10 @@
 
     <!-- Add your site or application content here -->
 
-    <!--<div ng-include="'views/navigation-bar/navigation-bar.html'" ng-controller="MainCtrl"></div>-->
-    <!--<div ng-include="'views/carousel/carousel.html'"></div>-->
+    <div ng-include="'views/navigation-bar/navigation-bar.html'" ng-controller="MainCtrl"></div>
+    <div ng-include="'views/carousel/carousel.html'"></div>
     <div ui-view></div>
+    <div ng-include="'views/email-form/email-form.html'"></div>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
