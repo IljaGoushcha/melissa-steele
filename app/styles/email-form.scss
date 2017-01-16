@@ -1,0 +1,11 @@
+.email-outer-div {
+
+  .alert-success {
+    display: none;
+  }
+  .email-success {
+    display: block;
+    transition: display 0.5s ease;
+  }
+
+}

@@ -15,15 +15,16 @@
     <!-- endbuild -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
   </head>
-  <body ng-app="melissaSteeleApp">
+  <body ng-app="melissaSteeleApp"  ng-controller="MainCtrl">
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
 
-    <div ng-include="'views/navigation-bar/navigation-bar.html'" ng-controller="MainCtrl"></div>
+    <div ng-include="'views/navigation-bar/navigation-bar.html'"></div>
     <div ng-include="'views/carousel/carousel.html'"></div>
+    <div ng-include="'views/sub-header/sub-header.html'"></div>
     <div ui-view></div>
     <div ng-include="'views/email-form/email-form.html'"></div>
 
@@ -50,6 +51,8 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/bootstrap-validator/dist/validator.js"></script>
+    <script src="bower_components/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

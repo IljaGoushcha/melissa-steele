@@ -16,10 +16,6 @@ angular
         url: '/home',
         templateUrl: 'views/home/home.html'
       })
-      .state('about', {
-        url: '/about',
-        templateUrl: 'views/about/about.html'
-      })
       .state('services', {
         url: '/services',
         templateUrl: 'views/services/services.html'
@@ -27,11 +23,11 @@ angular
       .state('testimonials', {
         url: '/testimonials',
         templateUrl: 'views/testimonials/testimonials.html'
+      })
+      .state('melissa-steele', {
+        url: '/melissa-steele',
+        templateUrl: '../views/melissa-steele.html'
       });
-      // .state('melissa-steele', {
-      //   url: '/melissa-steele',
-      //   templateUrl: '../views/melissa-steele.html'
-      // });
 
 
 });

@@ -5,8 +5,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import "navigation-bar";
 @import "carousel";
+@import "sub-header";
 @import "home";
-
+@import "services";
+@import "testimonials";
+@import "melissa-steele";
+@import "email-form";
 
 
 .browsehappy {
