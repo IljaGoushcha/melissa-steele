@@ -1,4 +1,5 @@
 .navbar-default {
+
   background:transparent;
   border-color: transparent;
   .container-fluid {
@@ -20,6 +21,12 @@
       li {
         a:last-of-type {
           padding-right: 0;
+        }
+        a:hover {
+          color: #435F7D;
+          span {
+            border-bottom: 3px solid #435F7D;
+          }
         }
       }
     }

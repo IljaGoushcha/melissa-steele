@@ -12,13 +12,7 @@ angular.module('melissaSteeleApp')
 
     $scope.emailSent = false;
 
-    $scope.scrollToBottom = function() {
-      console.log('inside sctollToBottom');
-      $window.scrollTo(0,document.body.scrollHeight);
-    };
-
     $scope.submitForm = function(form) {
-
       if (form.$valid) {
         $scope.emailSent = true;
         setTimeout(function() {
