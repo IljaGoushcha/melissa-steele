@@ -14,19 +14,19 @@ angular
     $stateProvider
       .state('home', {
         url: '/home',
-        templateUrl: '../views/home/home.html'
+        templateUrl: 'views/home/home.html'
       })
       .state('about', {
         url: '/about',
-        templateUrl: '../views/about/about.html'
+        templateUrl: 'views/about/about.html'
       })
       .state('services', {
         url: '/services',
-        templateUrl: '../views/services/services.html'
+        templateUrl: 'views/services/services.html'
       })
       .state('testimonials', {
         url: '/testimonials',
-        templateUrl: '../views/testimonials/testimonials.html'
+        templateUrl: 'views/testimonials/testimonials.html'
       });
       // .state('melissa-steele', {
       //   url: '/melissa-steele',
